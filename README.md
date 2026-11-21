@@ -40,7 +40,7 @@ flowchart TD
     A["crear_estructura.ipynb"] --> B["00_inicializacion_datos_movielens.ipynb"]
     B --> C["01_limpieza_integracion_movielens.ipynb"]
     C --> D["02_analisis_exploratorio_estadistica.ipynb"]
-    D --> E["visualizaciones.ipynb"]
+    D --> E["03_visualizaciones.ipynb"]
 ```
 
 ### Descripción de los notebooks
@@ -51,7 +51,7 @@ flowchart TD
 | `00_inicializacion_datos_movielens.ipynb` | Adquisición, extracción, validación, carga e inspección inicial de MovieLens 32M. |
 | `01_limpieza_integracion_movielens.ipynb` | Limpieza, preparación e integración de los conjuntos de datos. |
 | `02_analisis_exploratorio_estadistica.ipyn` | Documentar las propiedades identificadas en tablas consolidadas y los principales insights obtenidos. |
-| `visualizaciones.ipynb` | Desarrollo de visualizaciones para explorar e interpretar los resultados del análisis. |
+| `03_visualizaciones.ipynb` | Desarrollo de visualizaciones para explorar e interpretar los resultados del análisis. |
 
 **Orden de ejecución:** los notebooks deben ejecutarse siguiendo la secuencia establecida, ya que las etapas posteriores pueden depender de los archivos o resultados generados previamente.
 
@@ -74,7 +74,8 @@ DMEMCD/
 │   ├── crear_estructura.ipynb
 │   ├── 00_inicializacion_datos_movielens.ipynb
 │   ├── 01_limpieza_integracion_movielens.ipynb
-│   └── visualizaciones.ipynb
+│   ├── 02_analisis_exploratorio_estadistica.ipyn
+│   └── 03_visualizaciones.ipynb
 │
 ├── reports/
 │
