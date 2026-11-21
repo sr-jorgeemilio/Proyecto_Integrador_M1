@@ -113,7 +113,7 @@ El desarrollo del proyecto utiliza las siguientes tecnologías y bibliotecas:
 Las dependencias del proyecto se encuentran centralizadas en el archivo `requirements.txt`.
 
 
-## 7. Fuente y adquisición de los datos
+## 6. Fuente y adquisición de los datos
 
 Este proyecto utiliza el conjunto de datos **MovieLens 32M**, desarrollado por GroupLens Research, perteneciente a la University of Minnesota.
 
